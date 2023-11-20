@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload, Crop, and Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <input type="file" accept="image/*" id="imageInput">
+    <button onclick="uploadAndCrop()">Upload & Crop</button>
+
+    <div id="previewContainer"></div>
+
+    <h2>Image Gallery</h2>
+    <div id="galleryContainer"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="image.js"></script>
+</body>
+</html>

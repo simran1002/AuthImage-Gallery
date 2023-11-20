@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#imageInput {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#previewContainer {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+.gallery-image {
+    width: 100px;
+    margin: 5px;
+}
